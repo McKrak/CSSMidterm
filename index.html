@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-<!-- Link the style.css here.-->
-
+    <!-- Link the style.css here.-->
+    <link rel="stylesheet" href="style/style.css" />
 </head>
+
 <body>
     <nav class="mainNav">
         <!-- Upate the href so that each link is working and navigates to the corresponding page. -->
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Shoping</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shoping</a></li>
         </ul>
     </nav>
     <header class="jumbotron">
@@ -25,83 +27,121 @@
     </header>
     <main class="mainBody">
         <header id="welcomeMessage">
-        <h1>My Favorite Foods</h1>
-        <h2>List of my top favorite foods.</h2>
-        <!-- Create and Ordered List of your Top 5 Favorite Foods -->
-        <!-- Start Ordered List here -->
-
-        <!-- End Ordered List here -->
+            <h1 style="text-align: center; font-size: 2.5em;">My Favorite Foods</h1>
+            <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 10px;">List of my top favorite foods.</h2>
+            <!-- Create and Ordered List of your Top 5 Favorite Foods -->
+            <!-- Start Ordered List here -->
+            <div id="favoriteFoodList">
+                <ol>
+                    <li>Pizza</li>
+                    <li>Penne</li>
+                    <li>Gnocchi</li>
+                    <li>Apple Pie</li>
+                    <li>Garlic Bread</li>.mainFooter {   background-color: #111;   padding-top: 50px;   padding-bottom: 50px;   color: white;   font-size: 16px;   text-align: left; }  .mainFooter p {   width: 200px;   float:left;   padding-left: 50px;   font-weight: bold; }  .mainFooter a {   text-align:right;   text-decoration: none;   color: dodgerblue;   float: right;   padding-right: 50px; }
+                </ol>
+            </div>
+            <!-- End Ordered List here -->
         </header>
-    <section class="contentSections">
-        <article class="articles">
-            <header>
-                <h1>Change this to food item 1</h1>
-            </header>
-            <p><!-- write a blurb about why this is your favorite food --></p>
-            
-            <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
-            <figure>
-                <img src=""/>
-                <figcaption>Describe the type of food pictured. i.e. Some Delicious Pizza</figcaption>
-            </figure>  
-            <aside><p><!-- Place a quick blurb here about the country of origin you food is from. --></p></aside>
-        </article>
-        <article class="articles">
-            <header>
-                <h1>Change this to food item 2</h1>
-            </header>
-            <p><!-- write a blurb about why this is your favorite food --></p>
-            
-            <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
-            <figure>
-                <img src=""/>
-                <figcaption>Describe the type of food pictured. i.e. Some Delicious Pizza</figcaption>
-            </figure>  
-            <aside><p><!-- Place a quick blurb here about the country of origin you food is from. --></p></aside>
-        </article>
-        <article class="articles">
-            <header>
-                <h1>Change this to food item 3</h1>
-            </header>
-            <p><!-- write a blurb about why this is your favorite food --></p>
-            
-            <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
-            <figure>
-                <img src=""/>
-                <figcaption>Describe the type of food pictured. i.e. Some Delicious Pizza</figcaption>
-            </figure>  
-            <aside><p><!-- Place a quick blurb here about the country of origin you food is from. --></p></aside>
-        </article>
-        <article class="articles">
-            <header>
-                <h1>Change this to food item 4</h1>
-            </header>
-            <p><!-- write a blurb about why this is your favorite food --></p>
-            
-            <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
-            <figure>
-                <img src=""/>
-                <figcaption>Describe the type of food pictured. i.e. Some Delicious Pizza</figcaption>
-            </figure>  
-            <aside><p><!-- Place a quick blurb here about the country of origin you food is from. --></p></aside>
-        </article>
-        <article class="articles">
-            <header>
-                <h1>Change this to food item 5</h1>
-            </header>
-            <p><!-- write a blurb about why this is your favorite food --></p>
-            
-            <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
-            <figure>
-                <img src=""/>
-                <figcaption>Describe the type of food pictured. i.e. Some Delicious Pizza</figcaption>
-            </figure>  
-            <aside><p><!-- Place a quick blurb here about the country of origin you food is from. --></p></aside>
-        </article>    
-    </section>
+        <section class="contentSections">
+            <article class="articles">
+                <header>
+                    <h1>Pizza</h1>
+                </header>
+                <p>I dunno i just really like it.</p>
+
+                <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
+                <figure>
+                    <img
+                        src="https://images.squarespace-cdn.com/content/v1/5f99ccd9a6e3cd3a37a7a080/1607019859844-F1W7VU4V7LNUZR28ZRXQ/Slider-4.jpg?format=2500w" />
+                    <figcaption>Person forcefully separating infant pizza slice from it's family (circa 2005).
+                    </figcaption>
+                </figure>
+                <aside>
+                    <p>
+                        <!-- Place a quick blurb here about the country of origin you food is from. -->
+                    </p>
+                </aside>
+            </article>
+            <article class="articles">
+                <header>
+                    <h1>Penne</h1>
+                </header>
+                <p>Fun shapes to put right in your mouth!</p>
+
+                <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
+                <figure>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/c3/fc/c2/penne-al-pomodoro.jpg" />
+                    <figcaption>Penne brethren killed in cold blood, topped with basil.</figcaption>
+                </figure>
+                <aside>
+                    <p>
+                        <!-- Place a quick blurb here about the country of origin you food is from. -->
+                    </p>
+                </aside>
+            </article>
+            <article class="articles">
+                <header>
+                    <h1>Gnocchi</h1>
+                </header>
+                <p>A different kind of pasta; shaped like maggots with a gush of tomato sauce inside each! Keeps the
+                    flavor nice and hot.</p>
+
+                <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
+                <figure>
+                    <img
+                        src="https://www.kikkoman.eu/fileadmin/_processed_/a/e/csm_WEB_Spicy_tomato_and_sausage_gnocchi_with_fennel_and_spinach_b1e3a765d7.jpg" />
+                    <figcaption>Wooden spoon topples over, crushes 30.</figcaption>
+                </figure>
+                <aside>
+                    <p>
+                        <!-- Place a quick blurb here about the country of origin you food is from. -->
+                    </p>
+                </aside>
+            </article>
+            <article class="articles">
+                <header>
+                    <h1>Apple Pie</h1>
+                </header>
+                <p>It just tastes really good man.</p>
+
+                <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
+                <figure>
+                    <img
+                        src="https://kristineskitchenblog.com/wp-content/uploads/2021/04/apple-pie-1200-square-592-2.jpg" />
+                    <figcaption>Weird slimy triangle things drowned in apple sauce, served as "dessert".</figcaption>
+                </figure>
+                <aside>
+                    <p>
+                        <!-- Place a quick blurb here about the country of origin you food is from. -->
+                    </p>
+                </aside>
+            </article>
+            <article class="articles">
+                <header>
+                    <h1>Garlic Bread</h1>
+                </header>
+                <p>It's garlic bread, not moldy bread. Tastes a lot better than you think (basically bread but with more
+                    flavor).</p>
+
+                <!-- Find an image of your favorite food from www.unsplash.com and embed it here. -->
+                <figure>
+                    <img src="https://www.shugarysweets.com/wp-content/uploads/2020/04/garlic-bread-4-720x540.jpg" />
+                    <figcaption>I don't even know how to describe this one but it looks tasty!</figcaption>
+                </figure>
+                <aside>
+                    <p>
+                        <!-- Place a quick blurb here about the country of origin you food is from. -->
+                    </p>
+                </aside>
+            </article>
+        </section>
 
     </main>
 
-    <footer class="mainFooter"><p>Created by: <!-- input your name here --> <span> <!-- Enter your email here and make it a clickable hyperlink. --></span></p></footer>
+    <footer class="mainFooter">
+        <p>Created by: Antonio Cotto</p>
+        <a href="mailto:cotto_antonio@student.mahoningctc.com">cotto_antonio@student.mahoningctc.com</a>
+    </footer>
 </body>
+
 </html>
